@@ -1,0 +1,17 @@
+Clases. Una clase es un grupo de elementos que conforman un conjunto que tiene caracteristicas especificas.
+
+Objeto. Un objeto puede ser considerado como un ente abstracto el cual se usa para la programacion. 
+
+Metodo. Un metodo es el como se va a realizar una accion 
+
+Atributo. Son las caracteristicas que se aplican al objeto de nuestro programa
+
+Setters. Significa establecer y nos sirve principalmente para asignar un valor inicial a un atributo
+
+Getters. Esta funcion nos permite obtener el valor de una propiedad de la clase.
+
+Puntero. Puede ser una variable que almacena la dirección en la memoria de un objeto
+
+constructor.  Es un metodo cuyo nombre es igual que el nombre de su variable 
+
+Git Hub. Es un servicio en la nube el cual permite almacenar y compartir codigo.
