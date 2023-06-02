@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Tematica.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #808080;}
+.s3 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Tematica.java</font>
+</center></td></tr></table>
+<pre><span class="s0">public class </span><span class="s1">Tematica {</span>
+    <span class="s2">//Atributos privvados para almacenar el nombre y el tipo</span>
+    <span class="s0">private </span><span class="s1">String nombre</span><span class="s0">;</span>
+    <span class="s0">private </span><span class="s1">String tipo</span><span class="s0">;</span>
+
+    <span class="s0">public </span><span class="s1">Tematica(String nombre</span><span class="s0">, </span><span class="s1">String tipo) {</span>
+        <span class="s0">this</span><span class="s1">.nombre = nombre</span><span class="s0">;</span>
+        <span class="s0">this</span><span class="s1">.tipo = tipo</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">public </span><span class="s1">String getNombre() {</span>
+        <span class="s0">return </span><span class="s1">nombre</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">public void </span><span class="s1">setNombre(String nombre) {</span>
+        <span class="s0">this</span><span class="s1">.nombre = nombre</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">public </span><span class="s1">String getTipo(String tipo) {</span>
+        <span class="s0">return </span><span class="s1">tipo</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">public void </span><span class="s1">setTipo(String tipo) {</span>
+        <span class="s0">this</span><span class="s1">.tipo = tipo</span><span class="s0">;</span>
+    <span class="s1">}</span>
+<span class="s1">}</span>
+        <span class="s0">public class </span><span class="s1">Main {</span>
+            <span class="s0">public static void </span><span class="s1">main(String[] args) {</span>
+                <span class="s1">Tematica tematica1 = </span><span class="s0">new </span><span class="s1">Tematica(</span><span class="s3">&quot;El quijote de la mancha&quot;</span><span class="s0">, </span><span class="s3">&quot;Literatuta&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                <span class="s1">Tematica tematica2 = </span><span class="s0">new </span><span class="s1">Tematica(</span><span class="s3">&quot;La odisea&quot;</span><span class="s0">, </span><span class="s3">&quot;Literatuta&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                <span class="s1">Tematica tematica3 = </span><span class="s0">new </span><span class="s1">Tematica(</span><span class="s3">&quot;Harry Potter&quot;</span><span class="s0">, </span><span class="s3">&quot;Literatuta&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                <span class="s1">Tematica tematica4 = </span><span class="s0">new </span><span class="s1">Tematica(</span><span class="s3">&quot;The witcher&quot;</span><span class="s0">, </span><span class="s3">&quot;Literatuta&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                <span class="s1">Tematica tematica5 = </span><span class="s0">new </span><span class="s1">Tematica(</span><span class="s3">&quot;Caperucita y el lobo&quot;</span><span class="s0">, </span><span class="s3">&quot;Literatuta&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                <span class="s1">Tematica tematica01 = </span><span class="s0">new </span><span class="s1">Tematica(</span><span class="s3">&quot;Ori and the blind forest&quot;</span><span class="s0">, </span><span class="s3">&quot;Videojuego&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                <span class="s1">Tematica tematica02 = </span><span class="s0">new </span><span class="s1">Tematica(</span><span class="s3">&quot;Crisis Core&quot;</span><span class="s0">, </span><span class="s3">&quot;Videojuego&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                <span class="s1">Tematica tematica03 = </span><span class="s0">new </span><span class="s1">Tematica(</span><span class="s3">&quot;Mainecraft&quot;</span><span class="s0">, </span><span class="s3">&quot;Videojuego&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                <span class="s1">Tematica tematica04 = </span><span class="s0">new </span><span class="s1">Tematica(</span><span class="s3">&quot;Doom&quot;</span><span class="s0">, </span><span class="s3">&quot;Videojuego&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                <span class="s1">Tematica tematica05 = </span><span class="s0">new </span><span class="s1">Tematica(</span><span class="s3">&quot; The forest&quot;</span><span class="s0">, </span><span class="s3">&quot;Videojuego&quot;</span><span class="s1">)</span><span class="s0">;</span>
+
+
+                <span class="s1">System.out.println(tematica1.getNombre()+</span><span class="s3">&quot;-&quot;</span><span class="s1">+tematica1.getTipo())</span><span class="s0">;</span>
+                <span class="s1">System.out.println(tematica2.getNombre()+</span><span class="s3">&quot;-&quot;</span><span class="s1">+ tematica2.getTipo())</span><span class="s0">;</span>
+                <span class="s1">System.out.println(tematica3.getNombre()+</span><span class="s3">&quot;-&quot;</span><span class="s1">+tematica3.getTipo())</span><span class="s0">;</span>
+                <span class="s1">System.out.println(tematica4.getNombre()+</span><span class="s3">&quot;-&quot;</span><span class="s1">+tematica4.getTipo())</span><span class="s0">;</span>
+                <span class="s1">System.out.println(tematica5.getNombre()+</span><span class="s3">&quot;-&quot;</span><span class="s1">+tematica5.getTipo())</span><span class="s0">;</span>
+                <span class="s1">System.out.println(tematica01.getNombre()+</span><span class="s3">&quot;-&quot;</span><span class="s1">+tematica01.getTipo())</span><span class="s0">;</span>
+                <span class="s1">System.out.println(tematica02.getNombre()+</span><span class="s3">&quot;-&quot;</span><span class="s1">+tematica02.getTipo())</span><span class="s0">;</span>
+                <span class="s1">System.out.println(tematica03.getNombre()+</span><span class="s3">&quot;-&quot;</span><span class="s1">+tematica03.getTipo())</span><span class="s0">;</span>
+                <span class="s1">System.out.println(tematica04.getNombre()+</span><span class="s3">&quot;-&quot;</span><span class="s1">+tematica04.getTipo())</span><span class="s0">;</span>
+                <span class="s1">System.out.println(tematica05.getNombre()+</span><span class="s3">&quot;-&quot;</span><span class="s1">+tematica05.getTipo())</span><span class="s0">;</span>
+
+                <span class="s1">tematica1.setTipo(</span><span class="s3">&quot;VideoJuegos&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                <span class="s1">tematica2.setNombre(</span><span class="s3">&quot;Mario Bros&quot;</span><span class="s1">)</span><span class="s0">;</span>
+                <span class="s1">tematica01.setTipo(</span><span class="s3">&quot;Crepusculo&quot;</span><span class="s1">)</span><span class="s0">;</span>
+
+                <span class="s1">System.out.println(tematica1.getNombre()+</span><span class="s3">&quot;-&quot;</span><span class="s1">+tematica1.getTipo())</span><span class="s0">;</span>
+                <span class="s1">System.out.println(tematica2.getNombre()+</span><span class="s3">&quot;-&quot;</span><span class="s1">+tematica2.getTipo())</span><span class="s0">;</span>
+                <span class="s1">System.out.println(tematica3.getNombre()+</span><span class="s3">&quot;-&quot;</span><span class="s1">+tematica3.getTipo())</span><span class="s0">;</span>
+                <span class="s1">System.out.println(tematica4.getNombre()+</span><span class="s3">&quot;-&quot;</span><span class="s1">+tematica4.getTipo())</span><span class="s0">;</span>
+                <span class="s1">System.out.println(tematica01.getNombre()+</span><span class="s3">&quot;-&quot;</span><span class="s1">+tematica01.getTipo())</span><span class="s0">;</span>
+
+        <span class="s1">}</span>
+
+        <span class="s1">}</span>
+
+
+</pre>
+</body>
+</html>
